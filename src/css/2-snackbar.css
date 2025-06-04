@@ -1,0 +1,63 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form label {
+  display: block;
+  font-size: 16px;
+  color: #333;
+}
+
+input[type='number'] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+fieldset {
+  border: 2px solid #999;
+  padding: 15px;
+
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+legend {
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+fieldset label {
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+input[type='radio'] {
+  margin-right: 5px;
+}
+
+button[type='submit'] {
+  width: 100%;
+  padding: 6px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  color: #000;
+  border: 1px solid #999;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button[type='submit']:hover {
+  background-color: #e0e0e0;
+}
